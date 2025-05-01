@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.ui {
+  display: none;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 300px;
+ }
+
+.ui.active {
+  display: block;
+}
+p{
+font-size: 25px;
+}
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#yesBtn, #noBtn {
+  position: absolute;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#yesBtn {
+  background-color: lightgreen;
+  left: 40%;
+  top: 80%;
+}
+
+#noBtn {
+  background-color: lightcoral;
+  left: 55%;
+  top: 80%;
+}
